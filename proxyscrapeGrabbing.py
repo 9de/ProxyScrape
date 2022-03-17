@@ -65,7 +65,7 @@ if __name__ == '__main__':
         elif proxiestype == 2:
              ProxiesGrabbering("socks4", timeout)
         elif proxiestype == 3:
-          ProxiesGrabbering("socks4", timeout)
+          ProxiesGrabbering("socks5", timeout)
         else:
             input("Can't Find Number Try Again!\n")
                  
